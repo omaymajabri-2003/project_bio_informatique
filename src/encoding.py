@@ -8,7 +8,7 @@ def get_textual_decomposition(df, k):
     for seq in df['sequence']:
         kmers = [seq[i:i+k] for i in range(len(seq) - k + 1)]
         decomposed.append(" ".join(kmers))
-    return pd.DataFrame({'division_k': decomposed, 'label': df['label']})
+    return pd.DataFrame({'division_k': decomposed, 'target' : df['target']})
 
 def get_numeric_matrices(df, k):
     """

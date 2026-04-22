@@ -1,0 +1,7 @@
+k_mers,matrix_type,algo_name,best_n_neighbors,accuracy,f1_score
+2,occurrence,KNN,3,1.0,1.0
+4,occurrence,KNN,3,1.0,1.0
+4,boolean,KNN,3,1.0,1.0
+2,boolean,KNN,9,0.9444444444444444,0.9439153439153439
+3,occurrence,KNN,3,0.8888888888888888,0.886002886002886
+3,boolean,KNN,3,0.8333333333333334,0.8249721293199553
