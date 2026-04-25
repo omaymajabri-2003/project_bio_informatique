@@ -29,8 +29,8 @@ def clean_sequence_file(raw_file_path):
     sequences_1 = lines[start_class_1 : end_class_1]
 
     # 3. Création du DataFrame professionnel
-    data_0 = pd.DataFrame({'sequence': sequences_0, 'target': 0})
-    data_1 = pd.DataFrame({'sequence': sequences_1, 'target': 1})
+    data_0 = pd.DataFrame({'sequence': sequences_0, 'target': 'c0'})
+    data_1 = pd.DataFrame({'sequence': sequences_1, 'target': ' c1'})
     
     df = pd.concat([data_0, data_1], ignore_index=True)
     

@@ -44,5 +44,4 @@ def get_numeric_matrices(df, k):
 
     # 3. Construction de la matrice BOOLÉENNE
     X_boolean = (X_occurrence > 0).astype(int)
-
     return X_occurrence, X_boolean
